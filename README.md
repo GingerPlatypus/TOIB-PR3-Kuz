@@ -10,67 +10,67 @@
    
 2. Включим на 1-ой (сервере) ВМ передачу логов по протоколу rsyslog на 2-ую ВМ (клиент)
    
-   **Устанавим и настраим rsyslog на сервере и клиенте**
+   **2.1 Устанавим и настраим rsyslog на сервере и клиенте**
 
    ![image](Screenshots/4.png)
 
-   **Проверим работоспособность rsyslog на сервере и клиенте**
+   **2.2 Проверим работоспособность rsyslog на сервере и клиенте**
 
    ![image](Screenshots/5.png)
 
-   **Включим UDP и TCP соединения**
+   **2.3 Включим UDP и TCP соединения**
 
    ![image](Screenshots/6.png)
 
-   **Устанавливим правила на сервере**
+   **2.4 Устанавливим правила на сервере**
    
    ![image](Screenshots/7.png)
 
-   **Установливим правила на клиенте**
+   **2.5 Установливим правила на клиенте**
    
    ![image](Screenshots/8.png)
 
-   **Проверим получения логов на сервере**
+   **2.6 Проверим получения логов на сервере**
    
    ![image](Screenshots/9.png)
 
    ![image](Screenshots/10.png)
 
-4. Установим и настроим получение логов на сервер с использованием Loki
+3. Установим и настроим получение логов на сервер с использованием Loki
    
-   **Установим и отредактируем docker compose файл на сервере**
+   **3.1 Установим и отредактируем docker compose файл на сервере**
  
    ![image](Screenshots/11.png)
    
    ![image](Screenshots/12.png)
    
-   **Запустим Loki**
+   **3.2 Запустим Loki**
  
    ![image](Screenshots/13.png)
  
-   **Отредактируем promtail-config на клиенте**
+   **3.3 Отредактируем promtail-config на клиенте**
  
    ![image](Screenshots/14.png)
 
-   **Отредактируем docker compose файл для promtail**
+   **3.4 Отредактируем docker compose файл для promtail**
  
    ![image](Screenshots/15.png)
   
-   **Запустим promtail на клиенте**
+   **3.5 Запустим promtail на клиенте**
  
    ![image](Screenshots/16.png)
 
-   **Просматрим логи клиента в Grafana**
+   **3.6 Просматрим логи клиента в Grafana**
  
    ![image](Screenshots/17.png)
 
    ![image](Screenshots/18.png)
  
- 5. Устанавливим и настроим получение логов на сервере с использованием Signoz
+ 4. Устанавливим и настроим получение логов на сервере с использованием Signoz
 
    _Установка Signoz по инструкции с сайта: https://signoz.io/docs/install/docker/#install-signoz-using-docker-compose_
 
-   **Запустим Signoz**
+   **4.1 Запустим Signoz**
    
    ![image](Screenshots/19.png)
    
@@ -78,17 +78,17 @@
    
    ![image](Screenshots/21.png)
    
-   **Отредактируем конфигурации на клиенте для отправки данных в Signoz**
+   **4.2 Отредактируем конфигурации на клиенте для отправки данных в Signoz**
    
    _Устнаовка приложения sample-nodejs-app согласно инструкции с сайта: https://github.com/SigNoz/sample-nodejs-app/_
    
    ![image](Screenshots/22.png)
 
-   **Запустим клиентское приложение sample-nodejs-app**
+   **4.3 Запустим клиентское приложение sample-nodejs-app**
    
    ![image](Screenshots/23.png)
    
-   **Проверим получение логов в Signoz**
+   **4.4 Проверим получение логов в Signoz**
    
    ![image](Screenshots/24.png)
    

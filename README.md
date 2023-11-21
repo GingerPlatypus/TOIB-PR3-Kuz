@@ -22,11 +22,11 @@
 
    ![image](Screenshots/6.png)
 
-   **2.4 Устанавливим правила на сервере**
+   **2.4 Установим правила на сервере**
    
    ![image](Screenshots/7.png)
 
-   **2.5 Установливим правила на клиенте**
+   **2.5 Установим правила на клиенте**
    
    ![image](Screenshots/8.png)
 
@@ -60,13 +60,13 @@
  
    ![image](Screenshots/16.png)
 
-   **3.6 Просматрим логи клиента в Grafana**
+   **3.6 Просмотрим логи клиента в Grafana**
  
    ![image](Screenshots/17.png)
 
    ![image](Screenshots/18.png)
  
- 4. Устанавливим и настроим получение логов на сервере с использованием Signoz
+ 4. Установим и настроим получение логов на сервере с использованием Signoz
 
    _Установка Signoz по инструкции с сайта: https://signoz.io/docs/install/docker/#install-signoz-using-docker-compose_
 

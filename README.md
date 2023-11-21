@@ -80,7 +80,7 @@
    
    **4.2 Отредактируем конфигурации на клиенте для отправки данных в Signoz**
    
-   _Устнаовка приложения sample-nodejs-app согласно инструкции с сайта: https://github.com/SigNoz/sample-nodejs-app/_
+   _Установка приложения sample-nodejs-app согласно инструкции с сайта: https://github.com/SigNoz/sample-nodejs-app/_
    
    ![image](Screenshots/22.png)
 
